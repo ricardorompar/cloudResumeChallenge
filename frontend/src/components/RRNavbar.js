@@ -3,17 +3,25 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+//Resources:
+import rrLogoDark from '..//img/rrSimpleDark.svg';
 
 function RRNavbar() {
     //Stuff for modal:
     const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
 
     return (
         <Navbar expand="lg">
             <Container expand="lg" className=' pb-3 my-2 border-bottom'>
-                <Navbar.Brand href="/index.html">💸 ricardorompar</Navbar.Brand>
+                <Navbar.Brand href="/index.html">
+                    <img 
+                    alt="Ricardorompar logo simple"
+                    src={rrLogoDark}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"></img>{'  '}
+                    ricardorompar
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
