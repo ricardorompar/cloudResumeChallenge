@@ -6,12 +6,12 @@ import Nav from 'react-bootstrap/Nav';
 import rrLogoDark from '..//img/rrSimpleDark.svg';
 
 function RRNavbar() {
-    //Stuff for modal:
-    const [show, setShow] = useState(false);
+    //stuff for closing navbar:
+    const [expanded, setExpanded] = useState(false);
 
     return (
         <>
-            <Navbar expand="lg" fixed='top' className='p-0 navbar-style'>
+            <Navbar expand="lg" fixed='top' className='p-0 navbar-style' expanded={expanded}>
                 <Container fluid="lg" className='py-3 border-bottom'>
                     <Navbar.Brand href="/" className='rounded-pill bg-white bg-opacity-75'>
                         <img 
@@ -22,16 +22,16 @@ function RRNavbar() {
                         className="d-inline-block align-top"></img>{'  '}
                         ricardorompar
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             
                         </Nav>
                         <Nav className='rounded-pill bg-white bg-opacity-75'>
-                            <Nav.Link href="/">Home</Nav.Link>    {/*the index.html is very important for deployment. This is my landing page*/}
-                            <Nav.Link href="/#/resume">Resume</Nav.Link>
-                            <Nav.Link href="/#/about">About</Nav.Link>
-                            <Nav.Link href="/#/contact">Contact</Nav.Link>
+                            <Nav.Link href="/" onClick={() => setExpanded(false)}>Home</Nav.Link>    {/*the index.html is very important for deployment. This is my landing page*/}
+                            <Nav.Link href="/#/resume" onClick={() => setExpanded(false)}>Resume</Nav.Link>
+                            <Nav.Link href="/#/about" onClick={() => setExpanded(false)}>About</Nav.Link>
+                            <Nav.Link href="/#/contact" onClick={() => setExpanded(false)}>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

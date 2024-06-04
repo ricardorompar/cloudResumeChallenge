@@ -12,7 +12,7 @@ function Resume() {
     return(
         <Container fluid="sm" className='my-3 max-width-900 p-3'>
             <h1>Ricardo Romero</h1>
-            <h5 style={{fontWeight:"100"}} className='mb-3'>Cloud Engineer | Master in Computer Science 🚀</h5>
+            <h5 style={{fontWeight:"100"}} className='mb-3'>Solutions Engineer | Master in Computer Science 🚀</h5>
             <Card>
                 <Card.Header>Profile</Card.Header>
                 <Card.Body>
@@ -176,7 +176,24 @@ function Resume() {
             <Card className='my-3'>
                 <Card.Header>Skills</Card.Header>
                 <Card.Body>
-                    Python | Flask | ReactJS | Git/Github | SQL | Google Cloud Platform | AWS | Oracle Cloud Infrastructure | Linux (Ubuntu) / Bash | Docker | MongoDB | Databases | Infrastructure | Computer Networking | Operating Systems | Communication
+                    Python | Flask | ReactJS | Git/Github | Terraform | Vault | SQL | Google Cloud Platform | AWS | Oracle Cloud Infrastructure | Linux (Ubuntu) / Bash | Docker | MongoDB | Databases | Infrastructure | Computer Networking | Operating Systems | Communication
+                </Card.Body>
+            </Card>
+
+            <Card className='my-3'>
+                <Card.Header>Publications and Voluteering</Card.Header>
+                <Card.Body>
+                    <ul>
+                        <li>
+                            Publications: <a href='https://doi.org/10.1007/978-3-030-97672-9_32'>Hand Gesture and Arm Movement Recognition for Multimodal Control of a 3-DOF Helicopter</a> | <a href='https://doi.org/10.1038/s41598-023-34540-x'>A Deep Q-Network based hand gesture recognition system for control of robotic platforms</a> .
+                        </li>
+                        <li>
+                            Co-founder of the Languages Club at EPN (2021).
+                        </li>
+                        <li>
+                            Former student member of IEEE’s Control Systems Society.
+                        </li>
+                    </ul>
                 </Card.Body>
             </Card>
 
