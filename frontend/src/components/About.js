@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-import Rosmarino from '..//img/rosmarino.jpg'
+import Rosmarino from '../img/rosmarino.jpg'
 import { Link } from 'react-router-dom';
 
 function About() {

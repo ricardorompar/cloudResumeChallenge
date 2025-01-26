@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 // React router stuff:
 import { Link } from 'react-router-dom';
 
-import rrLogo from '..//img/rrLogo.svg';
+import rrLogo from '../img/rrLogo.svg';
 
 function Landing({setShowPages}){
         setShowPages(false);

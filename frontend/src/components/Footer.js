@@ -1,9 +1,9 @@
 import React from "react"
 import Container from 'react-bootstrap/Container';
 //Resources:
-import rrLogoDark from '..//img/rrSimpleDark.svg';
-import linkedin from '..//img/linkedin.svg';
-import github from '..//img/github.svg';
+import rrLogoDark from '../img/rrSimpleDark.svg';
+import linkedin from '../img/linkedin.svg';
+import github from '../img/github.svg';
 
 
 function Footer(){

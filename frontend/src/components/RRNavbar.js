@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 //Resources:
-import rrLogoDark from '..//img/rrSimpleDark.svg';
+import rrLogoDark from '../img/rrSimpleDark.svg';
 
 function RRNavbar() {
     //stuff for closing navbar:
