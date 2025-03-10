@@ -1,0 +1,97 @@
+.logo_letters{
+    font-size: 5.5px;
+    font-family: monospace;
+    line-height: 6px;
+    max-width: 100%;
+    margin: 0 auto; /* Center the ASCII art */
+    padding-left: 0px; /* Add some padding for centering. Image is not centerd because of how it was made */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;;
+}
+
+/* other stuff */
+.spacer.bottom {
+	min-height: 10vw;
+}
+
+.spacer.s0 {
+	min-height: 10%;
+}
+
+.spacer{
+    min-height: 300px;
+}
+
+#trigger{
+    position: absolute;
+    top: 1vh;
+}
+
+.logo_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.main_header {
+    position: sticky;
+}
+
+.inner.secondary {
+    position: fixed;
+    bottom: 500px;
+}
+
+#rrtag{
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+}
+
+/* RESUME */
+.rs_header{
+    border-bottom: solid 1px #ffffff;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.company_header{
+    text-transform: uppercase;
+}
+
+.header_items_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex: 1;
+}
+.header_items_left{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin: 0;
+}
+.header_items_right{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin: 0;
+}
+.experience_content{
+    border-top: solid 0.5px rgba(255, 255, 255, 0.3);
+    padding-top: 1rem;
+    margin-top: 0.3rem;
+}

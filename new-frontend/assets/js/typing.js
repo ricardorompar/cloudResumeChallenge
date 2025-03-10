@@ -1,5 +1,3 @@
-console.log('Typing effect loaded');
-
 var typed = new Typed('#typedElement', {
   strings: ['an electronics engineer.', 'passionate about science and technology.', 'a cloud solutions engineer.'],
   typeSpeed: 50,

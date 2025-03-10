@@ -64,52 +64,52 @@ const logoComplete = {
                                                                                                              
                                                                                                              
                                                                                                              
-                                             xx+xx                                                           
-                                           Xx+++++xX      +xxxx+x                                            
-                                           XXXXxXXXX   XXXXx++++++xx                                         
-                                           XXXXXXXX$   $XXXXXXx++++++xx                                      
-                                           XXXXXXXX$   $XXXXXXXXXx+++++++xx                                  
-                                           XXXXXXXX$   $XXXXXXXXXXXXx+++++++xx                               
-                                           XXXXXXX$$   $$XX$$$$XXXXXXXXx+++++++xx                            
-                                           XXXXXXX$$   $$XX$$$$$ XXXXXXXXXxx++++++xx                         
-                                           XXXXXXX$$   $$XX$$$$$    XXXXXXXXXxx++++++xx                      
-                                           XXXXXXX$$   $$XX$$$$$       XXXXXXXXXXx++++++xx                   
-                                           XXXXXXX$$   $$XXX$$$$          $XXX$$$$$X+++++++x                 
-                  xx+++xx                  XXXXXXX$$   $$XXXXXXX             $$$$$$x+++++++x                 
-                XXx+++++++xx               XXXXXXX$$   $$XXXXXXX               xx+++++++xXX+                 
-                XXXXXx+++++++xX            XXXXXXX$$   $$XXXXXXX            xx+++++++xXXXXX+                 
-                XXXXXXXXx+++++++xx         XXXXXXX$$   $$XXXXXXX         xx++++++xxXXXXXXXXx                 
-                 $XXXXXXXXXx+++++++xx      XXXXXXX$$   $$XXXXXXX      xx+++++++xXXXXXXXXX$                   
-                     XXXXXXXXXX+++++++xx   XXXXXXX$$   $XXXXXXXX   xx+++++++XXXXXXXXXX                       
-                        XXXXXXXXXXx+++++++xXXXXXXX$$   $XXXXXXXXx+++++++xXXXXXXXXX$                          
-                           XXXXXXXXXXx+++++++xXXXXX$   $XXXXXx+++++++xXXXXXXXXX$                             
-                              XXXXXXXXXXx++++++xxXX$   XXXxx++++++xXXXXXXXXXX                                
-                                 $XXXXXXXXXxx++++xX$   Xx+++++xxXXXXXXXXX                                    
-                                    XXXXXXXXXxxxxxxX   Xxxxx+XXXXXXXXX$                                      
-                                        XXXXXXXx++xX   XXxxxXXXXXXX                                          
-                                     XxxxxXXXXXXXX$$   $$XX$XXXXxxxxx                                        
-                                  xx++++++xXXXXXXXX$   $XXXXXXXX+++++++xx                                    
-                               xx+++++++xXXXXXXXXXX$   $$XXXXXXXXXx+++++++xx                                 
-                            x++++++++XXXXXXXXXXXXX$$   $$XXXXXXXXXXXXx++++++++x                              
-                        xx+++++++xxXXXXXXXXXXXXXXX$$   $$XXXXXXXXXXXXXXXx++++++++x                           
-                     Xx+++++++xXXXXXXXXX$  XXXXXXX$$   $$XXXXXXX  XXXXXXXXXXx+++++++xX                       
-                  Xx+++++++xXXXXXXXXXX     XXXXXXX$$   $$XXXXXXX     XXXXXXXXXXx+++++++xx                    
-               xx+++++++x$$$$XXXXX         XXXXXXX$$   $$XXXXXXX        $XXXXXXXXXx++++++xX                  
-               ++++++++$$$$$$$$$           XXXXXXX$$   $$XXXXXXX           $XXXXXXXXXxxXXXX                  
-               +x+++++++x$$$$              XXXXXXX$$   $$XXXXXXX              $XXXXXXXXXXXX                  
-               +XXXx++++++++X              XXXXXXX$$   $$XXXXXXX                  XXXXXXX$                   
-               xXXXXXXx+++++++xx           XXXXXXX$$   $$XXXXXXX                     $$                      
-                XXXXXXXXXx+++++++xx        XXXXXXX$$   $$XXXXXXX                                             
-                   XXXXXXXXXX++++++xxx     XXXXXXX$$   $$XXXXXXX                                             
-                      XXXXXXXXXXxxxxxxxxXX XXXXXXX$$   $$XXXXXXX                                             
-                         XXXXXXXXXXxxxxXXXXXXXXXXX$$   $$XXXXXXX                                             
-                            XXXXXXXXXXXxXXXXXXXXXX$$   $$XXXXXXX                                             
-                                XXXXXXXXXXXXXXXXXX$$   $$XXXXXXX                                             
-                                  XXXXXXXXXXXXXXXX$$   $XXXXXXXX                                             
-                                      XXXXXXXXXXX$XX   $XXXXXXXX                                             
-                                         XXXXXXXx;     $XXXXXXXX                                             
-                                            XXX         $XXXXX$                                              
-                                                           $                                                 
+                                            xxxxx                                                            
+                                          Xxxxxxxxx$    ++xxxxxxX                                            
+                                          XXXXxxXXX   $XXXxxxxxxxxxx                                         
+                                         XXXXXXXXXX  $XXXXXXXxxxxxxxxxx                                      
+                                         $XXXXXXXX$  $$XXXXXXXXXXxxxxxxxxxx                                  
+                                         XXXXX$XXX$  $$XXXXXXXXXXXXXxxxxxxxxxx                               
+                                         XXXXXXXXXX  $$XXX$$$$XXXXXXXXXXxxxxxxxxx                            
+                                         XXXXXXXXX$  $$XXX$$$$  $XXXXXXXXXXxxxxxxxxxX                        
+                                         XXXXXXXX$$ $$$XXX$$$$     XXXXXXXXXXXxxxxxxxxxx                     
+                                         XXXXXXXX$$ $$$XXXX$$$         XXXXXXXXXXXxxxxxxxxx                  
+                                         XXXXXXXX$  $$$XXXXXXX            $XXXXX$$$$$xxxxxxxxX               
+                    x+++xxx             $XXXXXXXX$  $$XXXXXXXX                $$$$$$Xxxxxxxxxx               
+                  $Xx+++++++xx          $XXXXXXXX$  $$XXX$XXX$                   Xxx+++xxxxXx+               
+                  XXXXXX++++++++x       XXXXX$XXX$  $$XXX$XXX$                Xx+++++++xXXXX+                
+                  XXXXXXXXXx+++++++xx   XXXXXXXX$x  $$XXXXXXX              xx+++++++xXXXXXXXx                
+                   XXXXXXXXXXXx+++++++xxXXXXXXXX$  $$XXXXXXXX           Xxx++++++xXXXXXXXXX                  
+                       XXXXXXXXXXXx++++++xxXXXXX$  $$XXX$XXXX         xx+++++++XXXXXXXXX                     
+                          $XXXXXXXXXXx+++++++xXX$  $XXXX$XXXX      x+++++++xxXXXXXXXX                        
+                             $XXXXXXXXXXxx++++++xx $XXXXXXXXX   xx+++++++xXXXXXXXX                           
+                                 XXXXXXXXXXXx++++++xxXXXXXXXXxxx++++++xXXXXXXXX$                             
+                                     XXXXXXXXXXxx++++xXXXXXXx+++++xxXXXXXXXX                                 
+                                      XxXXXXXXXXXXxxxx+XXXXxxXxxxxXXXXXXXX                                   
+                                     xxxxXxX$XXXXXXx+xXXxxxXxxxxXXXXXXX                                      
+                                  x++xxxxx+XXXXXXXXXXXXXXxX$$XXxXXXX                                         
+                               xx+++++++xXXXXX$XXXX$XXX$XX$$XXX$XXXXxx                                       
+                            xx+++++++xXXXXXXXX$XXXX$XXX$XX$$XXXXXXXx+++xx                                    
+                          x+++++++xXXXXXXXX$  XXXXXXXXX$$X$$XXXXXXXx+++++++x                                 
+                      xx+++++++xXXXXXXXX      XXXXXXXXX$ &$$XXXXXXXXXXx+++++++xx                             
+                   Xx+++++++xXXXXXXXXX        XXXXXXXX$$ $$$XXXXXXXXXXXXXxx++++++xx                          
+                 x++++++++XXXXXXXXX           XXXXXXXX$$ $$$XXXXXXXXXXXXXXXXXx+++++++x                       
+              x+++++++xX$$$XXXX$              XXXXXXXX$  $$$XXXXXXX   XXXXXXXXXXxx+++++xX                    
+              x+++++++$$$$$$$                XXXXXXXXX$  $$$XXXXXXX      XXXXXXXXXXxxXXXX                    
+             ;xx+++++++xX$                   $XXXX$XXX$  $$$XX$XXX$         XXXXXXXXXXXXX                    
+             ;xXXXX++++++++x                 $XXXX$XXX$  $$$XXXXXXX             XXXXXXX                      
+             xxXXXXXXXx+++++++xx             XXXXXXXX$   $$XXXXXXX                 $$                        
+              XXXXXXXXXXXx+++++++xx          XXXXXXXX$  $$$XXXXXXX                                           
+                  XXXXXXXXXXX++++++xxx       XXXXXXXX$  $$$XX$XXXX                                           
+                     $XXXXXXXXXXxxxxxxxxxX   XXXXXXXX$  $$$XXXXXXX                                           
+                         XXXXXXXXXXXxxxxxXXXXXXXXXXXX$  $$$XXXXXXX                                           
+                            XXXXXXXXXXXxxXXXXXXXXXXXX$  $$$XXXXXXX                                           
+                                XXXXXXXXXXXXXXXXX$XX$$  $$XXXXXXXX                                           
+                                   XXXXXXXXXXXXXX$XX$$  $$XXXXXXX$                                           
+                                      XXXXXXXXXXXXXXX   $XXXXXXXX                                            
+                                          XXXXXXXxx    $$XXXXXXXX                                            
+                                             $X$         $XX$XXX                                             
+                                                            $                                                
                                                                                                              
                                                                                                              
                                                                                                              
@@ -3538,6 +3538,65 @@ const logoComplete = {
                                                                                                              
                                                                                                              
                                                                                                              
+                                                                                                             `,
+    "360":`                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                             xx+xx                                                           
+                                           Xx+++++xX      +xxxx+x                                            
+                                           XXXXxXXXX   XXXXx++++++xx                                         
+                                           XXXXXXXX$   $XXXXXXx++++++xx                                      
+                                           XXXXXXXX$   $XXXXXXXXXx+++++++xx                                  
+                                           XXXXXXXX$   $XXXXXXXXXXXXx+++++++xx                               
+                                           XXXXXXX$$   $$XX$$$$XXXXXXXXx+++++++xx                            
+                                           XXXXXXX$$   $$XX$$$$$ XXXXXXXXXxx++++++xx                         
+                                           XXXXXXX$$   $$XX$$$$$    XXXXXXXXXxx++++++xx                      
+                                           XXXXXXX$$   $$XX$$$$$       XXXXXXXXXXx++++++xx                   
+                                           XXXXXXX$$   $$XXX$$$$          $XXX$$$$$X+++++++x                 
+                  xx+++xx                  XXXXXXX$$   $$XXXXXXX             $$$$$$x+++++++x                 
+                XXx+++++++xx               XXXXXXX$$   $$XXXXXXX               xx+++++++xXX+                 
+                XXXXXx+++++++xX            XXXXXXX$$   $$XXXXXXX            xx+++++++xXXXXX+                 
+                XXXXXXXXx+++++++xx         XXXXXXX$$   $$XXXXXXX         xx++++++xxXXXXXXXXx                 
+                 $XXXXXXXXXx+++++++xx      XXXXXXX$$   $$XXXXXXX      xx+++++++xXXXXXXXXX$                   
+                     XXXXXXXXXX+++++++xx   XXXXXXX$$   $XXXXXXXX   xx+++++++XXXXXXXXXX                       
+                        XXXXXXXXXXx+++++++xXXXXXXX$$   $XXXXXXXXx+++++++xXXXXXXXXX$                          
+                           XXXXXXXXXXx+++++++xXXXXX$   $XXXXXx+++++++xXXXXXXXXX$                             
+                              XXXXXXXXXXx++++++xxXX$   XXXxx++++++xXXXXXXXXXX                                
+                                 $XXXXXXXXXxx++++xX$   Xx+++++xxXXXXXXXXX                                    
+                                    XXXXXXXXXxxxxxxX   Xxxxx+XXXXXXXXX$                                      
+                                        XXXXXXXx++xX   XXxxxXXXXXXX                                          
+                                     XxxxxXXXXXXXX$$   $$XX$XXXXxxxxx                                        
+                                  xx++++++xXXXXXXXX$   $XXXXXXXX+++++++xx                                    
+                               xx+++++++xXXXXXXXXXX$   $$XXXXXXXXXx+++++++xx                                 
+                            x++++++++XXXXXXXXXXXXX$$   $$XXXXXXXXXXXXx++++++++x                              
+                        xx+++++++xxXXXXXXXXXXXXXXX$$   $$XXXXXXXXXXXXXXXx++++++++x                           
+                     Xx+++++++xXXXXXXXXX$  XXXXXXX$$   $$XXXXXXX  XXXXXXXXXXx+++++++xX                       
+                  Xx+++++++xXXXXXXXXXX     XXXXXXX$$   $$XXXXXXX     XXXXXXXXXXx+++++++xx                    
+               xx+++++++x$$$$XXXXX         XXXXXXX$$   $$XXXXXXX        $XXXXXXXXXx++++++xX                  
+               ++++++++$$$$$$$$$           XXXXXXX$$   $$XXXXXXX           $XXXXXXXXXxxXXXX                  
+               +x+++++++x$$$$              XXXXXXX$$   $$XXXXXXX              $XXXXXXXXXXXX                  
+               +XXXx++++++++X              XXXXXXX$$   $$XXXXXXX                  XXXXXXX$                   
+               xXXXXXXx+++++++xx           XXXXXXX$$   $$XXXXXXX                     $$                      
+                XXXXXXXXXx+++++++xx        XXXXXXX$$   $$XXXXXXX                                             
+                   XXXXXXXXXX++++++xxx     XXXXXXX$$   $$XXXXXXX                                             
+                      XXXXXXXXXXxxxxxxxxXX XXXXXXX$$   $$XXXXXXX                                             
+                         XXXXXXXXXXxxxxXXXXXXXXXXX$$   $$XXXXXXX                                             
+                            XXXXXXXXXXXxXXXXXXXXXX$$   $$XXXXXXX                                             
+                                XXXXXXXXXXXXXXXXXX$$   $$XXXXXXX                                             
+                                  XXXXXXXXXXXXXXXX$$   $XXXXXXXX                                             
+                                      XXXXXXXXXXX$XX   $XXXXXXXX                                             
+                                         XXXXXXXx;     $XXXXXXXX                                             
+                                            XXX         $XXXXX$                                              
+                                                           $                                                 
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
+                                                                                                             
                                                                                                              `
 };
 
@@ -3545,27 +3604,24 @@ const logoComplete = {
 
 const logoPlaceholder = document.getElementById("logo_letters");
 logoPlaceholder.innerHTML = logoComplete['0'];
+
+const rrTag = document.getElementById("rrtag");
 // init controller
 var controller = new ScrollMagic.Controller();
 
 // build scene
-var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500})
+var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, triggerHook: 0})
     .addTo(controller)
-    .addIndicators() // add indicators (requires plugin)
-    .on("update", function (e) {
-        $("#scrollDirection").text(e.target.controller().info("scrollDirection"));
-    })
-    .on("enter leave", function (e) {
-        $("#state").text(e.type == "enter" ? "inside" : "outside");
-    })
-    .on("start end", function (e) {
-        $("#lastHit").text(e.type == "start" ? "top" : "bottom");
-    })
+    .setPin("#logo_letters")
+    .addIndicators() // add indicators (requires plugin
     .on("progress", function (e) {
+        var color = "rgba(255, 255, 255,"+ ((e.progress**4).toFixed(2)) +")";
+        rrTag.style.color = color;
         const multSix = x => x % 6 === 0 ? x : multSix(x+1);
         var prog = parseInt(e.progress.toFixed(3)*360);
         var finalValue = multSix(prog)
         logoPlaceholder.innerHTML = logoComplete[finalValue];
-        $("#progress").text(finalValue);
+        // #progress used for debugging
+        $("#progress").text(color);
     });
 

@@ -4,6 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
 	<head>
 		<title>ricardorompar - Ricardo Romero</title>
@@ -12,374 +13,506 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
         <!-- Styles test for the letters logo -->
-        <link rel="stylesheet" href="assets/css/logo_letters.css" />    
+        <link rel="stylesheet" href="assets/css/custom.css" />    
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         <!-- ScrollMagic -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+        <!-- FA Icons -->
+        <script src="https://kit.fontawesome.com/fa4344ab8c.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span>
-                                <img src="images/RR.png" alt="Ricardo Romero" style="width: 5.5rem; height: 5.5rem; border-radius: 50%;">
-                            </span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Hey there! I'm Ricardo</h1>
-								<p>I'm <span id="typedElement"></span> <p>
-								<p>Currently helping businesses <i>do cloud right</i> @<a href="https://www.hashicorp.com">HashiCorp</a></p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#resume">Resume</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
-
+                <!-- Header -->
+                <div id="trigger"></div>
+                <header id="header">
+                    <!-- <div class="spacer bottom"></div> -->
+                    <div class="content">
+                        <div class="inner">
+                            <h1>Hey there! I'm Ricardo</h1>
+                            <p>I'm <span id="typedElement"></span> <p>
+                            <p>Currently helping businesses <i>do cloud right</i> @<a href="https://www.hashicorp.com">HashiCorp</a></p>
+                            
+                        </div>
+                        <!-- LOGO -->
+                        <div class="logo_container">
+                            <div id="rrtag"></div>                        
+                            <pre class="logo_letters" id="logo_letters"></pre>
+                        </div>
+                    </div>                    
+                    <nav>
+                        <ul>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <!--<li><a href="#elements">Elements</a></li>-->
+                        </ul>
+                    </nav>
+                </header>
+                <div class="spacer bottom"></div>
 				<!-- Main -->
-					<div id="main">
+                <div id="main">
 
-						<!-- Intro -->
-							<article id="resume">
-								<h2 class="major">Resume</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
-
-						<!-- Work -->
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-                                <p>I'm Ricardo Romero, an electronics engineer with a passion for cloud infrastructure automation and security.</p>
-                                <div id="trigger" class="spacer s0"></div>
-                                <!-- LOGO -->
-                                <pre class="logo_letters" id="logo_letters"></pre>
-                                <div id="customactions">
-                                    <label>scroll direction</label>
-                                    <code id="scrollDirection">PAUSED</code>
+                    <!-- Intro -->
+                        <article id="resume">
+                            <h2 class="major">Resume</h2>                
+                            <div id="summary">
+                                <h3 class="resume section header">Summary</h3>
+                                <p>
+                                    I am a dedicated and results-driven engineer with a strong passion for leveraging technology to solve real-world problems. 
+                                    Currently helping businesses do cloud right at HashiCorp, where I've learned how to transform deep technical knowledge into business value for different companies and organizations.
                                     <br>
-                                    <label>state</label>
-                                    <code id="state">outside</code>
-                                    <br>
-                                    <label>last hit</label>
-                                    <code id="lastHit">nothing</code>
-                                    <br>
-                                    <label>progress</label>
-                                    <code id="progress">0</code>
-                                    <br>
+                                    I have over two years of experience in client-facing roles, in which I have developed the ability to understand business needs and deliver
+                                    technological solutions to solve problems and generate trust.
+                                </p>
+                            </div>
+                            <span class="image main"><img src="images/Mountains.png" alt="" /></span>  
+                            <div id="experience">
+                                <h3 class="rs_header">Experience</h3> 
+                                <!-- Hashicorp -->
+                                <div class="header_items_row company_header">
+                                    <h4 class="header_items_left">
+                                        <a href="https://www.hashicorp.com" target="_blank">
+                                            HashiCorp
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </h4>
+                                    <h4 class="header_items_right">Madrid, Spain</h4>
                                 </div>
-                                <div class="spacer s2"></div>
-                                <section>
-                                    <h1>About me</h1>
-                                </section>
-                                <section>
-                                    <h1>Logo</h1>
-                                    <div id="rrLogo">
-                                        HELLOOOOO WORLD!!
+                                <div class="header_items_row">
+                                    <h5 class="header_items_left">Solutions Engineer</h5>
+                                    <h6 class="header_items_right">Aug. 2024 - Present</h6>
+                                </div>
+                                <div class="experience_content">
+                                    <ul>
+                                        <li>Influenced tens of different accounts across all customer segments resulting in over $10M ARR for the company within the first 6 months.</li>
+                                        <li>Organized and delivered several technical hands-on webinars and workshops of different products from the HashiCorp portfolio such as Terraform, Vault and Boundary.</li>
+                                        <li>Collaborated with different teams across the organization from Sales to Value Engineering (VE) to deliver tailored solutions for customers.</li>                            
+                                    </ul>
+                                </div>
+
+                                <!-- Ingelin -->
+                                 <div class="header_items_row company_header">
+                                    <h4 class="header_items_left">
+                                        <a href="https://www.ingelin.com.ec" target="_blank">
+                                            Ingelin
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </h4>
+                                    <h4 class="header_items_right">Quito, Ecuador</h4>
+                                </div>
+                                <div class="header_items_row">
+                                    <h5 class="header_items_left">Technical Service Engineer</h5>
+                                    <h6 class="header_items_right">Jan. 2022 - Sep. 2023</h6>
+                                </div>
+                                <div class="experience_content">
+                                    <ul>
+                                        <li>Guided over 15 different customers to find solutions to their medical business’s needs and problems with their imaging devices and IT.</li>
+                                        <li>Directed/collaborated in the planning and delivery of over 10 projects of medical equipment installations.</li>
+                                        <li>Started the company's new line of business, along with the primary stakeholders of the company, by teaming up with a major Chinese manufacturer of medical imaging systems.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Larscript -->
+                                 <div class="header_items_row company_header">
+                                    <h4 class="header_items_left">
+                                        <a href="http://larscript.com.ec/" target="_blank">
+                                            Larscript
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </h4>
+                                    <h4 class="header_items_right">Quito, Ecuador</h4>
+                                </div>
+                                <div class="header_items_row">
+                                    <h5 class="header_items_left">Customer Support Engineer</h5>
+                                    <h6 class="header_items_right">Jul. 2021 - Jan. 2022</h6>
+                                </div>
+                                <div class="experience_content">
+                                    <ul>
+                                        <li>Partnered in several major IT projects which involved hardware procurement and installation of PACS and RIS software.</li>
+                                        <li>Participated in a project to improve the IT infrastructure for a client, during which I received training on redundant storage systems and networking.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+
+                            <div id="education">
+                                <h3 class="rs_header">Education</h3> 
+                                <!-- IE -->
+                                <div class="header_items_row company_header">
+                                    <h4 class="header_items_left">
+                                        <a href="https://www.ie.edu/" target="_blank">
+                                            IE University
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </h4>
+                                    <h4 class="header_items_right">Madrid, Spain</h4>
+                                </div>
+                                <div class="header_items_row">
+                                    <h5 class="header_items_left">Master in Computer <br> Science and Business Technology</h5>
+                                    <h6 class="header_items_right">Sep. 2023 - Jul. 2024</h6>
+                                </div>
+                                <div class="experience_content">
+                                    <ul>
+                                        <li>IE Foundation Scholarship - Recipient of Direct Award.</li>
+                                        <li>Courses: Cloud Native Development, Cloud Solutions Architecture, Databases, Operating Systems, Python, etc.</li>
+                                        <li>Dean's list: top 3 graduates of the class.</li>                            
+                                    </ul>
+                                </div>
+
+                                <!-- Poli -->
+                                 <div class="header_items_row company_header">
+                                    <h4 class="header_items_left">
+                                        <a href="https://www.epn.edu.ec/" target="_blank">
+                                            Escuela Politécnica Nacional
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </h4>
+                                    <h4 class="header_items_right">Quito, Ecuador</h4>
+                                </div>
+                                <div class="header_items_row">
+                                    <h5 class="header_items_left">Bachelor in Electronics <br> and Control Engineering</h5>
+                                    <h6 class="header_items_right">Sep. 2015 - May 2021</h6>
+                                </div>
+                                <div class="experience_content">
+                                    <ul>
+                                        <li>Guided over 15 different customers to find solutions to their medical business’s needs and problems with their imaging devices and IT.</li>
+                                        <li>Directed/collaborated in the planning and delivery of over 10 projects of medical equipment installations.</li>
+                                        <li>Started the company's new line of business, along with the primary stakeholders of the company, by teaming up with a major Chinese manufacturer of medical imaging systems.</li>
+                                    </ul>
+                                </div>
+
+                                <!-- Larscript -->
+                                 <div class="header_items_row company_header">
+                                    <h4 class="header_items_left">
+                                        <a href="http://larscript.com.ec/" target="_blank">
+                                            Larscript
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </h4>
+                                    <h4 class="header_items_right">Quito, Ecuador</h4>
+                                </div>
+                                <div class="header_items_row">
+                                    <h5 class="header_items_left">Customer Support Engineer</h5>
+                                    <h6 class="header_items_right">Jul. 2021 - Jan. 2022</h6>
+                                </div>
+                                <div class="experience_content">
+                                    <ul>
+                                        <li>Partnered in several major IT projects which involved hardware procurement and installation of PACS and RIS software.</li>
+                                        <li>Participated in a project to improve the IT infrastructure for a client, during which I received training on redundant storage systems and networking.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </article>
+
+                    <!-- Work -->
+                        <article id="projects">
+                            <h2 class="major">Projects</h2>
+                            <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+                            <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+                        </article>
+
+                    <!-- About -->
+                        <article id="about">
+                            <h2 class="major">About</h2>
+                            <p>I'm Ricardo Romero, an electronics engineer with a passion for cloud infrastructure automation and security.</p>
+                            <section>
+                                <h1>About me</h1>
+                            </section>
+                            <section>
+                                <h1>Logo</h1>
+                                <div id="rrLogo">
+                                    HELLOOOOO WORLD!!
+                                </div>
+                            </section>
+                            <p>Completar</p>
+                        </article>
+
+                    <!-- Contact -->
+                        <article id="contact">
+                            <h2 class="major">Contact</h2>
+                            <form method="post" action="#">
+                                <div class="fields">
+                                    <div class="field half">
+                                        <label for="name">Name</label>
+                                        <input type="text" name="name" id="name" />
                                     </div>
-                                </section>
-								<p>Completar</p>
-							</article>
+                                    <div class="field half">
+                                        <label for="email">Email</label>
+                                        <input type="text" name="email" id="email" />
+                                    </div>
+                                    <div class="field">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" rows="4"></textarea>
+                                    </div>
+                                </div>
+                                <ul class="actions">
+                                    <li><input type="submit" value="Send Message" class="primary" /></li>
+                                    <li><input type="reset" value="Reset" /></li>
+                                </ul>
+                            </form>
+                            <ul class="icons">
+                                <li><a href="https://linkedin.com/in/ricardorompar" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="https://x.com/ricardorompar" target="_blank" class="icon brands fa-x-twitter"><span class="label">Twitter</span></a></li>
+                                <li><a href="https://github.com/ricardorompar" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                <li><a href="https://instagram.com/ricardorompar" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>                                
+                            </ul>
+                        </article>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+                    <!-- Elements -->
+                        <article id="elements">
+                            <h2 class="major">Elements</h2>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+                            <section>
+                                <h3 class="major">Text</h3>
+                                <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+                                This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+                                This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+                                <hr />
+                                <h2>Heading Level 2</h2>
+                                <h3>Heading Level 3</h3>
+                                <h4>Heading Level 4</h4>
+                                <h5>Heading Level 5</h5>
+                                <h6>Heading Level 6</h6>
+                                <hr />
+                                <h4>Blockquote</h4>
+                                <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+                                <h4>Preformatted</h4>
+                                <pre><code>i = 0;
 
 while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+                            </section>
 
-								<section>
-									<h3 class="major">Lists</h3>
+                            <section>
+                                <h3 class="major">Lists</h3>
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+                                <h4>Unordered</h4>
+                                <ul>
+                                    <li>Dolor pulvinar etiam.</li>
+                                    <li>Sagittis adipiscing.</li>
+                                    <li>Felis enim feugiat.</li>
+                                </ul>
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+                                <h4>Alternate</h4>
+                                <ul class="alt">
+                                    <li>Dolor pulvinar etiam.</li>
+                                    <li>Sagittis adipiscing.</li>
+                                    <li>Felis enim feugiat.</li>
+                                </ul>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+                                <h4>Ordered</h4>
+                                <ol>
+                                    <li>Dolor pulvinar etiam.</li>
+                                    <li>Etiam vel felis viverra.</li>
+                                    <li>Felis enim feugiat.</li>
+                                    <li>Dolor pulvinar etiam.</li>
+                                    <li>Etiam vel felis lorem.</li>
+                                    <li>Felis enim et feugiat.</li>
+                                </ol>
+                                <h4>Icons</h4>
+                                <ul class="icons">
+                                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                    <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                                </ul>
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+                                <h4>Actions</h4>
+                                <ul class="actions">
+                                    <li><a href="#" class="button primary">Default</a></li>
+                                    <li><a href="#" class="button">Default</a></li>
+                                </ul>
+                                <ul class="actions stacked">
+                                    <li><a href="#" class="button primary">Default</a></li>
+                                    <li><a href="#" class="button">Default</a></li>
+                                </ul>
+                            </section>
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+                            <section>
+                                <h3 class="major">Table</h3>
+                                <h4>Default</h4>
+                                <div class="table-wrapper">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Description</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Item One</td>
+                                                <td>Ante turpis integer aliquet porttitor.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Two</td>
+                                                <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                                <td>19.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Three</td>
+                                                <td> Morbi faucibus arcu accumsan lorem.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Four</td>
+                                                <td>Vitae integer tempus condimentum.</td>
+                                                <td>19.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Five</td>
+                                                <td>Ante turpis integer aliquet porttitor.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td colspan="2"></td>
+                                                <td>100.00</td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+                                <h4>Alternate</h4>
+                                <div class="table-wrapper">
+                                    <table class="alt">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Description</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Item One</td>
+                                                <td>Ante turpis integer aliquet porttitor.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Two</td>
+                                                <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                                <td>19.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Three</td>
+                                                <td> Morbi faucibus arcu accumsan lorem.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Four</td>
+                                                <td>Vitae integer tempus condimentum.</td>
+                                                <td>19.99</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item Five</td>
+                                                <td>Ante turpis integer aliquet porttitor.</td>
+                                                <td>29.99</td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <td colspan="2"></td>
+                                                <td>100.00</td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+                            </section>
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
+                            <section>
+                                <h3 class="major">Buttons</h3>
+                                <ul class="actions">
+                                    <li><a href="#" class="button primary">Primary</a></li>
+                                    <li><a href="#" class="button">Default</a></li>
+                                </ul>
+                                <ul class="actions">
+                                    <li><a href="#" class="button">Default</a></li>
+                                    <li><a href="#" class="button small">Small</a></li>
+                                </ul>
+                                <ul class="actions">
+                                    <li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+                                    <li><a href="#" class="button icon solid fa-download">Icon</a></li>
+                                </ul>
+                                <ul class="actions">
+                                    <li><span class="button primary disabled">Disabled</span></li>
+                                    <li><span class="button disabled">Disabled</span></li>
+                                </ul>
+                            </section>
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
+                            <section>
+                                <h3 class="major">Form</h3>
+                                <form method="post" action="#">
+                                    <div class="fields">
+                                        <div class="field half">
+                                            <label for="demo-name">Name</label>
+                                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+                                        </div>
+                                        <div class="field half">
+                                            <label for="demo-email">Email</label>
+                                            <input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+                                        </div>
+                                        <div class="field">
+                                            <label for="demo-category">Category</label>
+                                            <select name="demo-category" id="demo-category">
+                                                <option value="">-</option>
+                                                <option value="1">Manufacturing</option>
+                                                <option value="1">Shipping</option>
+                                                <option value="1">Administration</option>
+                                                <option value="1">Human Resources</option>
+                                            </select>
+                                        </div>
+                                        <div class="field half">
+                                            <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                                            <label for="demo-priority-low">Low</label>
+                                        </div>
+                                        <div class="field half">
+                                            <input type="radio" id="demo-priority-high" name="demo-priority">
+                                            <label for="demo-priority-high">High</label>
+                                        </div>
+                                        <div class="field half">
+                                            <input type="checkbox" id="demo-copy" name="demo-copy">
+                                            <label for="demo-copy">Email me a copy</label>
+                                        </div>
+                                        <div class="field half">
+                                            <input type="checkbox" id="demo-human" name="demo-human" checked>
+                                            <label for="demo-human">Not a robot</label>
+                                        </div>
+                                        <div class="field">
+                                            <label for="demo-message">Message</label>
+                                            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Send Message" class="primary" /></li>
+                                        <li><input type="reset" value="Reset" /></li>
+                                    </ul>
+                                </form>
+                            </section>
 
-							</article>
+                        </article>
 
-					</div>
+                </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; ricardorompar - Ricardo Romero. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+            <!-- Footer -->
+                <footer id="footer">
+                    <p class="copyright">&copy; ricardorompar - Ricardo Romero. Design inspired by <a href="https://html5up.net">HTML5 UP</a>.</p>
+                </footer>
 
 			</div>
 
