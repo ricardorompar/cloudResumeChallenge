@@ -1,7 +1,7 @@
 .logo_letters{
-    font-size: 5.5px;
+    font-size: 5px;
     font-family: monospace;
-    line-height: 6px;
+    line-height: 5.5px;
     max-width: 100%;
     margin: 0 auto; /* Center the ASCII art */
     padding-left: 0px; /* Add some padding for centering. Image is not centerd because of how it was made */
