@@ -1,14 +1,35 @@
 .logo_letters{
     font-size: 5px;
     font-family: monospace;
-    line-height: 5.5px;
+    line-height: 0.35rem;
     max-width: 100%;
     margin: 0 auto; /* Center the ASCII art */
     padding-left: 0px; /* Add some padding for centering. Image is not centerd because of how it was made */
     align-items: center;
     display: flex;
     justify-content: center;
-    box-sizing: content-box;;
+    box-sizing: content-box;
+}
+
+@media screen and (max-width: 667px) {
+    .logo_letters {
+        font-size: 4px;
+        line-height: 0.3rem;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .logo_letters {
+        font-size: 6.5px;
+        line-height: 0.35rem;
+    }
+}
+
+.arrow_down{
+    position: fixed;
+    bottom: 7%;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.85); /*initial value*/
 }
 
 /* other stuff */

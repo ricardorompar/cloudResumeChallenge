@@ -22,7 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# STUFF FOR TERRAFORM:
+##############################
+#      TERRAFORM STUFF       #:
+##############################
+
 # Local .terraform directories
 **/.terraform/*
 

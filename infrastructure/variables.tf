@@ -1,11 +1,11 @@
 variable "aws_region" {
-  description = "AWS Region for the CRC infrastructure"
-  type = string
-  default = "eu-central-1"
+  description = "AWS Region for the CRC infrastructure."
+  type        = string
+  default     = "us-east-1"
 }
 
-variable "bucket_name" {
-  description = "Name of the bucket"
-  type = string
-  default = "ricardorompar-crc-bucket"
+variable "bucket_prefix" {
+  description = "Prefix to put in front of the bucket name."
+  type        = string
+  default     = "ricardorompar"
 }

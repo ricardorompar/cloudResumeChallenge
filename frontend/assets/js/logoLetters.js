@@ -3600,12 +3600,13 @@ const logoComplete = {
                                                                                                              `
 };
 
-//take logo_letters
-
+// Where the letters will be rendered:
 const logoPlaceholder = document.getElementById("logo_letters");
 logoPlaceholder.innerHTML = logoComplete['0'];
 
-const rrTag = document.getElementById("rrtag");
+// the down arrow:
+const arrowDown = document.getElementById("arrowDown");
+
 // init controller
 var controller = new ScrollMagic.Controller();
 
@@ -3613,15 +3614,22 @@ var controller = new ScrollMagic.Controller();
 var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, triggerHook: 0})
     .addTo(controller)
     .setPin("#logo_letters")
-    .addIndicators() // add indicators (requires plugin
+    // .addIndicators() // add indicators (requires plugin
     .on("progress", function (e) {
-        var color = "rgba(255, 255, 255,"+ ((e.progress**4).toFixed(2)) +")";
-        rrTag.style.color = color;
+        var inverse_color = "rgba(255, 255, 255,"+ ((0.85*(1-e.progress)**4).toFixed(2)) +")";
+        // logoComplete is rotated every 6 degrees so we need to find the next multiple of 6:
         const multSix = x => x % 6 === 0 ? x : multSix(x+1);
         var prog = parseInt(e.progress.toFixed(3)*360);
         var finalValue = multSix(prog)
         logoPlaceholder.innerHTML = logoComplete[finalValue];
-        // #progress used for debugging
-        $("#progress").text(color);
+        // arrowDown changes transparency according to the scroll
+        arrowDown.style.color = inverse_color;
     });
 
+// Scroll to the bottom of the page on click of the arrow
+arrowDown.addEventListener('click', function () {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth'
+    });
+});
