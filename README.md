@@ -5,11 +5,11 @@ The Cloud Resume Challenge is a "spec" developed by <a href="https://github.com/
 
 These are the steps that I should take in order to complete the CRC:
 - [ ] 1. AWS Cloud Practitioner Certification
-- [ ] 2. HTML resume
-- [ ] 3. Styling with CSS
-- [ ] 4. Deploying the static website in an S3 bucket
+- [x] 2. HTML resume
+- [x] 3. Styling with CSS
+- [x] 4. Deploying the static website in an S3 bucket
 - [ ] 5. Use CloudFront to use TLS certificates for secure connections.
-- [ ] 6. Custom domain name with Route53
+- [x] 6. Custom domain name with ~~Route53~~ Cloudflare
 - [ ] 7. Visitor counter with JS
 - [ ] 8. Counter value stored in DynamoDB
 - [ ] 9. API to update the DB value with a Lambda function
