@@ -3,7 +3,7 @@
 #######################################
 
 resource "aws_s3_bucket" "crc_bucket" {
-  bucket_prefix = var.bucket_prefix
+  bucket        = "www.${var.domain_name}"
   force_destroy = true
 }
 
@@ -43,25 +43,6 @@ resource "aws_s3_bucket_policy" "hosting_bucket_policy" {
     ]
   })
 }
-
-# module "template_files" {
-#   # This is a compute-only Terraform module (that is, a module that doesn't make any remote API calls) 
-#   # which gathers all of the files under a particular base directory and renders those which have a particular 
-#   # suffix as Terraform template files.
-#   source   = "hashicorp/dir/template"
-#   base_dir = "${path.module}/../frontend"
-# }
-
-# resource "aws_s3_object" "files" {
-#   bucket       = aws_s3_bucket.crc_bucket.id
-#   for_each     = module.template_files.files
-#   key          = each.key
-#   content_type = each.value.content_type
-#   source       = each.value.source_path
-#   content      = each.value.content
-#   etag         = each.value.digests.md5
-# }
-
 
 resource "aws_s3_object" "website_files" {
   for_each = fileset("${path.module}/../frontend", "**/*.*")

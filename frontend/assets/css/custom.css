@@ -116,3 +116,12 @@
     padding-top: 1rem;
     margin-top: 0.3rem;
 }
+
+.about-img img{
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 1rem;
+    margin: 2rem auto;
+}

@@ -9,3 +9,14 @@ variable "bucket_prefix" {
   type        = string
   default     = "ricardorompar"
 }
+
+variable "cf_token" {
+  description = "Cloudflare provider authentication token."
+  type        = string
+}
+
+variable "domain_name" {
+  description = "Domain name for the website."
+  type        = string
+  default     = "ricardorompar.com"
+}
